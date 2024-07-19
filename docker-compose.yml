@@ -6,6 +6,8 @@ services:
     build: ./app1
     ports:
       - "4000:4000"
+    networks:
+      - network  
 
   checker:
     image: checker-node
@@ -14,3 +16,9 @@ services:
       - "4001:4001"
     depends_on:
       - api
+    networks:
+      - network
+
+networks:
+  network:
+    external: false      
