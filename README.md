@@ -1,1 +1,1 @@
-Para ejecutar el contenedor se debe navegar al directorio raíz del proyecto y allí escribir el siguiente comando: "docker compose up --build"
+Para ejecutar el docker-compose se debe navegar hasta el directorio raíz del proyecto en la terminal y allí escribir el siguiente comando: "docker compose up --build", de esta manera primero nos aseguramos de que las imágenes están actualizadas y posteriormente se inician los contenedores definidos. 
